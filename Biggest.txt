@@ -1,0 +1,17 @@
+class Biggest{
+public static void main(String[] abc){
+
+int a,b,c;
+int a=5;
+int b=10;
+int c=15;
+
+if (a>b)
+{System.out.println(a);}
+{
+else if (b>a)
+{System.out.println(b);}
+{
+else (c>a&b)
+{System.out.println(c);}
+}}}}
