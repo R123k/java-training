@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.commit();
 
 
-                Intent displayscreen=new Intent(MainActivity.this, ContactsContract.DisplayNameSources.class);
+                Intent displayscreen=new Intent(MainActivity.this, Displayscreen.class);
                 startActivity(displayscreen);
                 }
         });
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent registerScreen=new Intent(MainActivity.this, RegionIterator.class);
+                Intent registerScreen=new Intent(MainActivity.this, Register.class);
                 startActivity(registerScreen);
                 }
         });
